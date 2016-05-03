@@ -1,0 +1,39 @@
+2016-05-03 15:58:23,920 - [INFO] - from play in pool-4-thread-4 
+Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+
+2016-05-03 16:04:54,466 - [INFO] - from play in play-internal-execution-context-1 
+datasource [jdbc:h2:file:data/db;DB_CLOSE_DELAY=-1] bound to JNDI as DefaultDS
+
+2016-05-03 16:04:56,421 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:h2:file:data/db
+
+2016-05-03 16:05:15,963 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-05-03 16:11:30,736 - [DEBUG] - from application in play-akka.actor.default-dispatcher-10 
+Register Failed!
+
+2016-05-03 16:13:13,532 - [INFO] - from play in play-internal-execution-context-1 
+datasource [jdbc:h2:file:data/db;DB_CLOSE_DELAY=-1] bound to JNDI as DefaultDS
+
+2016-05-03 16:13:13,557 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:h2:file:data/db
+
+2016-05-03 16:13:33,235 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2016-05-03 16:41:06,141 - [DEBUG] - from application in play-akka.actor.default-dispatcher-23 
+New user created
+
+2016-05-03 16:42:03,493 - [DEBUG] - from application in play-akka.actor.default-dispatcher-27 
+Auth failed!
+
+2016-05-03 16:42:14,539 - [INFO] - from application in play-akka.actor.default-dispatcher-35 
+http://localhost:9034/workflow/getTimeline/112/offset/0/json
+
+2016-05-03 16:42:15,785 - [INFO] - from application in play-akka.actor.default-dispatcher-28 
+http://localhost:9034/users/getFriendRequests/userId/112
+
+2016-05-03 16:42:16,021 - [INFO] - from application in play-akka.actor.default-dispatcher-28 
+http://localhost:9034/mail/getInbox/112/json
+
